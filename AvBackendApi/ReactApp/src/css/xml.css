@@ -1,0 +1,103 @@
+#xml_wrapper .demo {
+    /* for IE10+ touch devices */
+    touch-action:none;
+}
+
+#xml_wrapper .w {
+    text-align:center;
+    overflow:hidden;
+    width: 120px;
+    padding: 10px 8px;
+    position: absolute;
+    z-index: 4;
+    border: 1px solid #2e6f9a;
+    box-shadow: 2px 2px 19px #e0e0e0;
+    -o-box-shadow: 2px 2px 19px #e0e0e0;
+    -webkit-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-box-shadow: 2px 2px 19px #e0e0e0;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    opacity: 0.8;
+    cursor: pointer;
+    background-color: white;
+    font-size: 11px;
+    -webkit-transition: background-color 0.25s ease-in;
+    -moz-transition: background-color 0.25s ease-in;
+    transition: background-color 0.25s ease-in;
+}
+
+#xml_wrapper .w:hover {
+    background-color: #5c96bc;
+    color: white;
+
+}
+
+#xml_wrapper .aLabel {
+    -webkit-transition: background-color 0.25s ease-in;
+    -moz-transition: background-color 0.25s ease-in;
+    transition: background-color 0.25s ease-in;
+}
+
+#xml_wrapper .aLabel.jsplumb-hover, #xml_wrapper .jsplumb-source-hover, #xml_wrapper .jsplumb-target-hover {
+    background-color: #1e8151;
+    color: white;
+}
+
+#xml_wrapper .aLabel {
+    background-color: white;
+    opacity: 0.8;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    border: 1px solid #346789;
+    cursor: pointer;
+}
+
+#xml_wrapper .ep:hover {
+    box-shadow: 0 0 6px black;
+}
+
+#xml_wrapper .statemachine-demo .jsplumb-endpoint {
+    z-index: 3;
+}
+
+#xml_wrapper .dragHover {
+    border: 2px solid orange;
+}
+
+#xml_wrapper path, #xml_wrapper .jsplumb-endpoint { cursor:pointer; }
+
+#xml_wrapper {
+    background-color: transparent;
+    font-family: Arial,sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    max-width: 1500px;
+    position: relative;
+    margin-top: 25px;
+}
+
+#xml_wrapper #xml_container{
+    height: 550px;
+    max-height: 700px;
+    border: 1px solid #CCC;
+    background-color: white;
+
+    overflow: scroll !important;
+    cursor: default;
+
+    position:relative;
+
+    touch-action:none;
+}
+
+.xml_attributes{
+   max-height:380px; 
+   overflow:auto;
+}
+
+.xml_new_attribute{
+    display: table;
+    width: 100%;
+    padding: 5px;
+}
